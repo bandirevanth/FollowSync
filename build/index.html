@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FollowSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>FollowSync: GitHub Follow-Back Checker</h1>
+
+    <p>This tool helps you find which GitHub users you follow who haven't followed you back.</p>
+
+    <h3>🔐 Enter Your Credentials</h3>
+    <input type="text" id="username" placeholder="GitHub Username" />
+    <input type="password" id="token" placeholder="GitHub Personal Access Token" />
+    <button onclick="checkFollowBack()">Check Follow-Back</button>
+
+    <div id="output" class="output"></div>
+
+    <footer>
+      © 2025 FollowSync | Built by Bandi Revanth
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
