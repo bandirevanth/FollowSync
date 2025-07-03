@@ -25,33 +25,6 @@ This tool helps you:
 
 ---
 
-## 📥 Step 2: Clone the Repository
-
-```bash
-git clone https://github.com/bandirevanth/followsync.git
-cd followsync
-```
-
-## Step 4: Add Your GitHub Username and Token
-Open `script.js` and replace the placeholders:
-
-```javascript
-const GITHUB_USERNAME = 'your-github-username'; // Replace with your GitHub username
-const GITHUB_TOKEN = 'your-github-token'; // Replace with your GitHub Personal Access Token
-```
-
-and then
-
-✅ Option 1: Open `index.html` directly.
-node github-follow-check.js
-
-✅ Option 3: Use Live Server (VS Code extension)
-1. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
-2. Open the `index.html` file in VS Code.
-3. Right-click and select "Open with Live Server"/"Go Live".
-
----
-
 🎯 Expected Output
 If some users haven't followed you back:
 
