@@ -13,7 +13,6 @@ This tool helps you:
 - 🔍 Fetch your **followers** and **following** lists via GitHub API  
 - 🔁 Identify users who **haven’t followed you back**
 - 📊 Display both **mutual followers** and **non-followers**
-- 🖥️ Run the script via **Node.js** or directly in the **browser console**
 
 ---
 
@@ -43,14 +42,8 @@ const GITHUB_TOKEN = 'your-github-token'; // Replace with your GitHub Personal A
 
 and then
 
-✅ Option 1: Run in Node.js
+✅ Option 1: Open `index.html` directly.
 node github-follow-check.js
-
-✅ Option 2: Run in Browser Console
-Open GitHub and log in.
-Press F12 to open the Developer Console.
-Copy-paste the script above.
-Press Enter to execute.
 
 ✅ Option 3: Use Live Server (VS Code extension)
 1. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
@@ -85,7 +78,7 @@ If everyone has followed you back:
 ---
 
 ## 🔥 Conclusion  
-This GitHub Follow-Back Checker automates the tedious task of checking who hasn’t followed you back. It's a great example of using GitHub API, JavaScript, and Node.js together.
+This GitHub Follow-Back Checker automates the tedious task of checking who hasn’t followed you back. It's a great example of using GitHub API, JavaScript together.
 
 ---
 
@@ -94,4 +87,8 @@ This GitHub Follow-Back Checker automates the tedious task of checking who hasn�
 Export data to CSV for easy tracking.
 Send alerts via email/notification when someone unfollows you.
 Build a web interface to visualize the data.
+
+---
+
 💡 Feel free to contribute to the project! Happy coding! 🚀
+Hope you give me a star and a follow...
