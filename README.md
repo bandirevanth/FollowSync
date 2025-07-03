@@ -33,7 +33,7 @@ cd followsync
 ```
 
 ## Step 4: Add Your GitHub Username and Token
-Open `followsync.js` and replace the placeholders:
+Open `script.js` and replace the placeholders:
 
 ```javascript
 const GITHUB_USERNAME = 'your-github-username'; // Replace with your GitHub username
