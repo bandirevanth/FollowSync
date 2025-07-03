@@ -78,7 +78,7 @@ If everyone has followed you back:
 ---
 
 ## 🔥 Conclusion  
-This GitHub Follow-Back Checker automates the tedious task of checking who hasn’t followed you back. It's a great example of using GitHub API, JavaScript together.
+This tool automates the tedious task of checking who hasn’t followed you back. It's a great example of using GitHub API, JavaScript together.
 
 ---
 
