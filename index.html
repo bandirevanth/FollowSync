@@ -1,102 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Followsync: GitHub Tool</title>
-  <style>
-    :root {
-      --bg: #0d1117;
-      --fg: #c9d1d9;
-      --accent: #58a6ff;
-      --card: #161b22;
-      --warning: #f85149;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: var(--bg);
-      color: var(--fg);
-      padding: 2rem;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: auto;
-      background-color: var(--card);
-      padding: 2rem;
-      border-radius: 16px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-
-    h1 {
-      color: var(--accent);
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-
-    h3 {
-      margin-top: 2rem;
-      color: var(--accent);
-    }
-
-    p {
-      margin: 0.5rem 0;
-    }
-
-    code {
-      background: #21262d;
-      color: var(--accent);
-      padding: 0.2rem 0.4rem;
-      border-radius: 4px;
-      font-size: 0.95rem;
-    }
-
-    .note {
-      color: var(--warning);
-      font-weight: bold;
-      margin-top: 1rem;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: #8b949e;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FollowSync</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
     <h1>FollowSync: GitHub Follow-Back Checker</h1>
 
-    <p>
-      This tool helps you find which GitHub users you follow who haven't followed you back. It uses the GitHub API to fetch your <strong>Following</strong> and <strong>Followers</strong> lists, then compares them.
-    </p>
+    <p>This tool helps you find which GitHub users you follow who haven't followed you back.</p>
 
-    <h3>📌 How to Run:</h3>
-    <p>1. Open <strong>GitHub</strong> and press <code>F12</code> to open the Developer Console.</p>
-    <p>2. Copy and paste the script from <code>followsync.js</code>.</p>
-    <p>3. Press <code>Enter</code> to execute.</p>
-    <p><b><u>Please refer to README.md for more details and other ways.</u></b></p>
+    <h3>🔐 Enter Your Credentials</h3>
+    <input type="text" id="username" placeholder="GitHub Username" />
+    <input type="password" id="token" placeholder="GitHub Personal Access Token" />
+    <button onclick="checkFollowBack()">Check Follow-Back</button>
 
-    <p class="note">Note: It might take a few seconds for the results to appear in the console.</p>
+    <div id="output" class="output"></div>
 
     <footer>
       © 2025 FollowSync | Built by Bandi Revanth
     </footer>
   </div>
 
-  <script src="followsync.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
