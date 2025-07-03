@@ -55,13 +55,5 @@ This tool automates the tedious task of checking who hasn’t followed you back.
 
 ---
 
-📌 Want more features? You can extend this script to:
-
-Export data to CSV for easy tracking.
-Send alerts via email/notification when someone unfollows you.
-Build a web interface to visualise the data.
-
----
-
 💡 Feel free to contribute to the project! Happy coding! 🚀  
 Hope you give me a star and a follow...
