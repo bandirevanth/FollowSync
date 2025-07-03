@@ -78,7 +78,7 @@ If everyone has followed you back:
 ---
 
 ## 🔥 Conclusion  
-This tool automates the tedious task of checking who hasn’t followed you back. It's a great example of using GitHub API, JavaScript together.
+This tool automates the tedious task of checking who hasn’t followed you back. It's a great example of using the GitHub API and JavaScript together.
 
 ---
 
@@ -86,9 +86,9 @@ This tool automates the tedious task of checking who hasn’t followed you back.
 
 Export data to CSV for easy tracking.
 Send alerts via email/notification when someone unfollows you.
-Build a web interface to visualize the data.
+Build a web interface to visualise the data.
 
 ---
 
-💡 Feel free to contribute to the project! Happy coding! 🚀
+💡 Feel free to contribute to the project! Happy coding! 🚀  
 Hope you give me a star and a follow...
