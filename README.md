@@ -23,9 +23,15 @@ This tool helps you:
 3. Select the scope: `read:user`
 4. Copy and save the token (⚠️ it will only be shown once!)
 
+## Step 2: Visit the website
+https://followsync.onrender.com
+1. Enter your GitHub username.
+2. Enter your GitHub API key
+3. View the results. And export it in CSV, if you wish...
+
 ---
 
-🎯 Expected Output
+### 🎯 Expected Output  
 If some users haven't followed you back:
 
 ✅ These users have followed you back:
