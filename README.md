@@ -27,7 +27,7 @@ This tool helps you:
 https://followsync.onrender.com
 1. Enter your GitHub username.
 2. Enter your GitHub API key
-3. View the results. And export it in CSV, if you wish...
+3. View the results and export them as a CSV file, if desired.
 
 ---
 
