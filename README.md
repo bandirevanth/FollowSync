@@ -32,8 +32,10 @@ https://followsync.onrender.com
 ---
 
 ### 🎯 Expected Output  
+
 If some users haven't followed you back:
 
+```
 ✅ These users have followed you back:
 - user1
 - user2
@@ -43,9 +45,11 @@ If some users haven't followed you back:
 - user4
 - user5
 - user6
+```
   
 If everyone has followed you back:
 
+```
 ✅ These users have followed you back:
 - user1
 - user2
@@ -53,7 +57,7 @@ If everyone has followed you back:
 - user4
   
 🎉 Everyone you follow has followed you back!
-
+```
 ---
 
 ## 🔥 Conclusion  
