@@ -19,7 +19,7 @@ This tool helps you:
 ## 🔑 Step 1: Generate a GitHub Personal Access Token (PAT)
 
 1. Go to [GitHub Token Settings](https://github.com/settings/tokens)
-2. Click **"Generate new token (Choose the classic one)"**
+2. Click **"Generate new token" (Choose the classic one)**
 3. Select the scope: `read:user`
 4. Copy and save the token (⚠️ it will only be shown once!)
 
